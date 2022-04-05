@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323:wght@400;500;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: VT323,sans;
+    font-size: 1.5rem;
+    background-color: blue;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.top-tier p {
+    background-color: white;
+    color: blue;
+    padding: 0px 20px;
+}
+
+.message {
+    font-variant-ligatures: none;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.press-any-key {
+    height: 10vh;
+}
+
+.press-any-key:hover {
+    color: slategray;
+}
+
+.footer {
+    margin: 0;
+    position: absolute;
+    bottom: 10px;
+    height: 10vh;
+    justify-content: center;
+
+}
+
+
+button {
+    border: 1px solid white;
+    box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin:2px 3px;
+    padding:1px 50px;
+    font-family: "Courier New";
+    font-size: 1em;
+    font-weight: normal;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    box-shadow: 1px 0 1px 0 #eee, 0 1px 0 1px #ccc, 0 1px 0 3px #444;
+}
+
+button:active {
+    color: blue;
+    background: white;
+}
+
+.info {
+    color: blue;
+    background-color: white;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    position: absolute;
+    align-self: end;
+    bottom: 10px;
+    margin: 50px;
+    font-size: 0.8em;
+}
+
+.info:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.info:active {
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+}
