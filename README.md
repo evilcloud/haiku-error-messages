@@ -4,9 +4,9 @@
 ## About The Project
 
 
-In the distant 1998 a Salon - a webresources dedicated to discussions on the topics of computer systems, has hosted a Challenge 4, in which the readers were encouraged to send in their attempts to make haikus on the topic of computer errors, preferably within the larger context of emotional impact of the momentary technological failure.
+In the distant 1998 *Salon* - a webresource dedicated to discussions on the topics of computer systems, has hosted a Challenge 4, in which the readers were encouraged to send in their attempts to make haikus on the topic of computer errors, preferably within the larger context of emotional impact of the momentary technological failure.
 
-The results of the challenge turned out to be great success and were regularily republished by different outlets for many years after.
+The results of the challenge turned out to be great success and were regularly republished by different outlets for many years after.
 
 Now after 25 years, with the major technological convergence, most of the issues have become all but distant memory of the systems past. enge on the site Salon (now defunct), where the readers were invited to write a haiku on the topic of imagined computer failure, often within the context of the personal suffering due to technical failure. The challenge turned out to be a great sucess and the haikus were republished by many other websites for many years. However, after 25 years these morcels of humour are all but a distant memory of the much simpler computer systems.
 
@@ -33,7 +33,7 @@ A nostalgic, non-antialiasted reminder of the Blue Screen of Death of the times 
 
 ### Screenshot
  
-![img.png](img.png)
+![img.png](images/img.png)
 
 ### Links
 

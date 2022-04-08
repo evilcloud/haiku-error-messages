@@ -73,15 +73,16 @@ Would be life without meaning
 No struggle, no joy`,
 ];
 
-const escapeChars = {
-  '"': "\0022",
-};
-
-let rand = Math.floor(Math.random() * haikus.length);
-let haiku = haikus[rand].split("\n").join("<br/>");
-for (char in escapeChars) {
-  haiku.replace(char, escapeChars[char]);
+function getHaiku() {
+  let rand = Math.floor(Math.random() * haikus.length);
+  let haiku = haikus[rand].split("\n").join("<br/>");
+  return haiku;
 }
 
-console.log(haiku);
-var elem = document.write(haiku);
+document.getElementsByClassName("message")[0].innerHTML = getHaiku();
+
+// document.getElementsByClassName("message")[0].innerHTML = getHaiku();
+const button = document.getElementsByTagName("button")[0];
+button.addEventListener('click', () => {
+  document.getElementsByClassName("message")[0].innerHTML = getHaiku();
+})

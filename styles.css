@@ -77,16 +77,18 @@ button:active {
 }
 
 .info {
-    color: blue;
-    background-color: white;
-    height: 1em;
-    width: 1em;
-    border-radius: 50%;
     position: absolute;
     align-self: end;
     bottom: 10px;
     margin: 50px;
-    font-size: 0.8em;
+}
+
+.info a {
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    border-radius: 50%;
 }
 
 .info:hover {
@@ -99,3 +101,4 @@ button:active {
     color: white;
     border: 2px solid white;
 }
+
