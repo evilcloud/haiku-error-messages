@@ -26,10 +26,11 @@ The primary purpose of this project is the solution for an open assignment in th
 
 ### Screenshot
  
-![img.png](images/img.png)
+![screenshot](media/screenshot.png)
 
 ### Links
 
+- [Live site](https://haiku-errors.netlify.app/)
 - The original publication Salon 21st [Webarchive](https://web.archive.org/web/20050301085638/http://archive.salon.com/21st/chal/1998/02/10chal2.html)
 - Salon’s bullshit explanation of how none of this is their [fault](https://www.salon.com/1998/02/24/straight_14/)
 - A selection of some hakus on [GNU Operating System](https://www.gnu.org/fun/jokes/error-haiku.en.html)
